@@ -1,41 +1,26 @@
-# Compiled Lua sources
-luac.out
+tools_thumbnail_cache.bin
+tools_asset_info.bin
+*.vpcf_c
+*.vtex_c
+*.vxml_c
+*.vcss_c
 
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
+panorama_debugger.cfg
+*.vmat_c
+*.vjs_c
+desktop.ini
+maps/
+*.sublime-workspace
+panorama/layout/custom_game/custom_ui_manifest.vxml_c
+tools_asset_info.bin
+*.vtex_c
+*.vpcf_c
+*.vpcf_c
+*.vmesh_c
 
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
 
-# Precompiled Headers
-*.gch
-*.pch
+*.vanim_c 
+*.vmdl_c 
+*.vagrp_c 
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
 

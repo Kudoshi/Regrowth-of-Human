@@ -6,10 +6,14 @@
 	//=================================================================================================================
 	// HERO: Templar Assassin
 	//=================================================================================================================
-	"npc_dota_hero_templar_assassin_template"
+	"npc_dota_hero_keeper_of_the_light"
 	{
-		"override_hero"				"npc_dota_hero_templar_assassin"			// Hero to override
-		"Ability1"					"templar_assassin_refraction_holdout"		// Ability 1
+		"override_hero"				"npc_dota_hero_keeper_of_the_light"			// Hero to override
+		"Ability1"					"VotingMainTable"		
+		"Ability2"					"VotingSecondTable"
+		"Ability3"					"AddFirst"
+		"Ability4"					"AddSecond"
+		"Ability5"					"PrintTable"
 		"VisionNighttimeRange"		"1800"										// Range of vision at night time.
 	}
 }
