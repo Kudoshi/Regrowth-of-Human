@@ -39,3 +39,7 @@ luac.out
 *.x86_64
 *.hex
 
+*.vtex_c
+*.vxml_c
+*.vjs_c
+*.vcss_c
