@@ -43,3 +43,4 @@ luac.out
 *.vxml_c
 *.vjs_c
 *.vcss_c
+*.vtex_c
