@@ -1,0 +1,64 @@
+<root>
+    <styles>
+        <include src="file://{resources}/styles/custom_game/vote/votingpanel.css" />
+    </styles>
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/vote/votingpanel.js" />
+    </scripts>
+    <snippets>
+        <snippet name="PickPanel"> 
+            <Panel class="PickPanel">
+                <Panel id ="MainTop">
+                    <Panel id="TopLeft">
+                        <Label id="MainTitle" text="Choose your game" />
+                    </Panel>
+
+                    <Panel id="TopRight">
+                    </Panel>
+                </Panel>
+                <Panel id="MainBot">
+                
+                    <Panel id="BotOne">
+                        <Label class="GameName" text = "Sample Game Name"/>
+                        <Panel id="GameOneImg">
+                            <Image src="file:///{resources}/images/custom_game/gamethumbnail/gamethumbnail_sample.png"/>
+                        </Panel>
+                        <Panel id="VPanel1">
+                            <Button id = "ButtOne" onactivate = "ClickButtOne()"/>
+                            <Panel class="Vote">
+                                <Label class="VoteTitle" text="VOTE"/>
+                            </Panel>
+                        </Panel>
+                    </Panel>
+                    
+                    <Panel id="BotTwo">
+                        <Panel id="VPanel2">
+                            <Button id = "ButtTwo" onactivate = "ClickButtTwo()">
+                                
+                            </Button>
+                            <Panel class="Vote">
+                                <Label class="VoteTitle" text="VOTE"/>
+                            </Panel>
+                        </Panel>
+                    </Panel>
+
+                    <Panel id="BotThree">
+                        <Panel id="VPanel3">
+                            <Button id = "ButtThree" onactivate = "ClickButtThree()">
+                            
+                            </Button>
+                          <Panel class="Vote">
+                                <Label class="VoteTitle" text="VOTE"/>
+                            </Panel>
+                        </Panel>
+                    </Panel>
+                </Panel>
+            </Panel>
+        </snippet>
+    </snippets>
+    <Panel class="votingpanel_root">
+        <Panel id= "mainpanel">
+            
+        </Panel>
+    </Panel>
+</root>

@@ -1,0 +1,201 @@
+.votingpanel_root
+{
+    width: 1150px;
+    height: 700px;
+    horizontal-align: center;
+    vertical-align: top;
+    
+    margin-top: 120px;
+    
+}
+/*I have legit 2 copies of the same panel for idk why */
+.PickPanel
+{
+    width: 1150px;
+    height: 700px;
+   
+    background-color: rgba(0, 0, 0, 0.781)(0, 0, 0);
+    flow-children: down;
+
+}
+#MainTop
+{
+    width: 1100px;
+    height: 150px;
+    horizontal-align: center;
+    vertical-align: top;
+    margin-top: 25px;
+    background-color: red;
+    flow-children:right;
+}
+#MainBot
+{
+    width: 1100px;
+    height: 480px;
+    horizontal-align: center;
+    vertical-align: top;
+    margin-top: 25px;
+    background-color: red;
+    flow-children: right;
+    
+
+}
+
+#TopLeft
+{
+    width: 880px;
+    height: 480px;
+    horizontal-align: left;
+    
+    
+    background-color: blue;
+}
+#TopRight
+{
+    width: 200px;
+    height: 480px;
+    horizontal-align: right;
+    
+    
+    background-color: rgb(0, 255, 106);
+}
+
+
+#BotOne
+{
+    width: 300px;
+    height: 470px;
+    horizontal-align:left;
+    margin-left: 25px;
+    
+
+    
+    
+    background-color: rgb(107, 62, 255);
+}
+
+
+#BotTwo
+{
+    width: 300px;
+    height: 470px;
+    horizontal-align:center;
+    margin-left: 70px;
+
+    
+    
+    background-color: rgb(200, 0, 207);
+}
+
+#BotThree
+{
+    width: 300px;
+    height: 470px;
+    horizontal-align:right;
+    margin-right: 25px;
+    
+
+    
+    
+    background-color: rgb(79, 0, 207);
+}
+.GameName
+{
+    width: 300px;
+    height: 470px;
+    font-size: 50px;
+    color: white;
+    text-shadow: #00000080 1px 2px 6px 3.0; // outer
+    text-align: center;
+    margin-top: 325px;
+    
+}
+#VPanel1
+{
+    width: 180px;
+    height: 80px;
+    horizontal-align: center;
+    vertical-align: bottom;
+    margin-bottom: 50px;
+    
+    background-color: black;
+}
+#VPanel2
+{
+    width: 180px;
+    height: 80px;
+    horizontal-align: center;
+    vertical-align: bottom;
+    margin-bottom: 50px;
+    
+    background-color: black;
+}
+#VPanel3
+{
+    width: 180px;
+    height: 80px;
+    horizontal-align: center;
+    vertical-align: bottom;
+    margin-bottom: 50px;
+    
+    background-color: black;
+}
+.Vote
+{
+    width: 180px;
+    height: 80px;
+    horizontal-align: center;
+    vertical-align: bottom;
+    
+    
+    
+
+    
+    
+    background-color: rgb(0, 179, 9);
+}
+
+#ButtOne
+{
+    width: 179px;
+    height: 79px;
+    horizontal-align: center;
+    vertical-align: bottom;
+    
+    margin-bottom: 50px;
+}
+#ButtTwo
+{
+    width: 179px;
+    height: 79px;
+    horizontal-align: center;
+    vertical-align: bottom;
+    
+    margin-bottom: 50px;
+}
+#ButtThree
+{
+    width: 179px;
+    height: 79px;
+    horizontal-align: center;
+    vertical-align: bottom;
+    
+    margin-bottom: 50px;
+}
+
+#MainTitle
+{
+    margin-top: 15px;
+    margin-left: 170px;
+    vertical-align: center;
+    font-size: 85px;
+    color: white;
+}
+.VoteTitle
+{
+    horizontal-align: center;
+    vertical-align: center;
+    font-size: 55px;
+    color: white;
+}
+

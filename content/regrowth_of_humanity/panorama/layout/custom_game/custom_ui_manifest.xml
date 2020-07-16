@@ -59,11 +59,17 @@
 
 	<Panel>
 		<!-- CustomUIElements go here.-->
-		<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/selection.xml"/>
+		<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/vote/votingpanel.xml"/>
 
-		<!-- PRACTISE AND TESTING PURPOSES-->
+
+
+		<!--<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/selection.xml"/>
+		-->
+
+		<!-- PRACTISE AND TESTING PURPOSES
 		<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/test/quest.xml"/>
 		<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/test/custom_timer.xml" />
+		-->
 		
 		<!-- From Overthrow:
         <CustomUIElement type="HudTopBar"           layoutfile="file://{resources}/layout/custom_game/multiteam_top_scoreboard.xml"/>
