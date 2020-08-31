@@ -35,7 +35,7 @@
     horizontal-align: center;
     vertical-align: top;
     margin-top: 25px;
-    background-color: red;
+    
     flow-children: right;
     
 
@@ -68,10 +68,18 @@
     horizontal-align:left;
     margin-left: 25px;
     
+    
+    
+    
+    
+}
+#GameOneImg
+{
+   
+}
+#GameOneImgSrc
+{
 
-    
-    
-    background-color: rgb(107, 62, 255);
 }
 
 

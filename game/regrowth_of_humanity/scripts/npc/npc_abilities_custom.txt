@@ -26,8 +26,8 @@
 		{
 			"RunScript"
 			{
-				"ScriptFile"	"abilities/development/printtable.lua"
-				"Function"		"printMainTable"
+				"ScriptFile"	"abilities/development/tablecmd.lua"
+				"Function"		"addvalue"
 				
 			}
 		}

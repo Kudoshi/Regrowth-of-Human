@@ -91,5 +91,6 @@ function CRoH:OnHeroInGame(hero)
 	DebugPrint("[SYSTEM] OnHeroInGame ACCESSED")
 end
 
-CustomGameEventManager:Send_ServerToAllClients("quests_create_quest" , {name= "Lua Sided", desc = "Make a quest using Lua event", max=5, tag = 5}) 
-CustomGameEventManager:Send_ServerToAllClients("quests_update_quest" , {max=5, current=1, tag=5}) 
+--CustomGameEventManager:Send_ServerToAllClients("quests_create_quest" , {name= "Lua Sided", desc = "Make a quest using Lua event", max=5, tag = 5}) 
+--CustomGameEventManager:Send_ServerToAllClients("quests_update_quest" , {max=5, current=1, tag=5}) 
+

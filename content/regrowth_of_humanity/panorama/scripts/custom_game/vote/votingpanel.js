@@ -1,4 +1,6 @@
 
+
+
 //////////////////////////// PICKING PANELS ////////////////////////////////
 
 function AddPanel()
@@ -8,17 +10,18 @@ function AddPanel()
     let panel = $.CreatePanel("Panel", $("#mainpanel"), "");
     panel.BLoadLayoutSnippet("PickPanel");
     
-}
+} 
 
 function GameSwitch()
 {
-
+    //Function that will change the picture of game
+    let gamename = "overcooked";
+    let imglink = "file://{images}/custom_game/gamethumbnail/game_" + gamename + ".png" ;
+    $('#GameOneImgSrc').SetImage(imglink);
+    $.Msg(imglink);
 }
+ 
 
-function AddImage()
-{
-    $.Msg("Add Image function accessed");
-}
 //--------------------------- [[ BUTTONS ]] --------------------------
 function ClickButtOne()
 {
@@ -28,25 +31,25 @@ function ClickButtOne()
 function ClickButtTwo()
 {
     $.Msg("2nd butt clicked");
-    
+    $.Msg( CustomNetTables.GetAllTableValues( "minigame" ) );
 }
 function ClickButtThree()
 { 
     $.Msg("3rd butt clicked");
+    GameSwitch();
+
 }
 //-------------------------------------------------------------------
 ///////////////////////////////////////////////////////////////////////////////
 function HideVote()
 {
+    //Hide the vote button
     $.Msg("HideVote working");
    let VoteButton = $('#VPanel1');
-   VoteButton.visible = false;
+   //oteButton.visible = false;
    
    let VoteButton2 = $('#VPanel2');
-   VoteButton.visible = false;
-  
-   let VoteButton3 = $('#VPanel3');
-   VoteButton.visible = false;
+   //VoteButton2.visible = false;
 
 } 
 
@@ -54,7 +57,7 @@ function start()
 {
     AddPanel();
     HideVote();
-    AddImage();
+    
 }
 
 
